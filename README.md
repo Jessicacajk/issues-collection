@@ -7,4 +7,5 @@
 ## 组件库
 ### 1. 用到的包
 * concurrently：让脚本同步进行， "dev": "concurrently \"pnpm docs:dev\"  \"pnpm example:dev\""。
-* fs-extra：fs的扩展包，读写文件的node包，
+* fs-extra：fs的扩展包，读写文件的node包，用来创建模板文件。
+* inquirer: node包，命令行交互工具。
